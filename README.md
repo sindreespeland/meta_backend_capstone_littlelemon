@@ -16,3 +16,13 @@ Activate venv - mac:
 source venv/bin/activate
 ```
 
+Creating requirements file
+```bash
+pip freeze > requirements.txt
+```
+
+Installing requirements
+```bash
+pip install -r requirements.txt
+```
+
