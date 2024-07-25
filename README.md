@@ -25,4 +25,13 @@ Installing requirements
 ```bash
 pip install -r requirements.txt
 ```
+## Endpoints
+### Booking endpoints
+Bookings: http://127.0.0.1:8000/restaurant/booking/tables
 
+### Djoser endpoints
+User List: http://127.0.0.1:8000/auth/users/
+
+User login: http://127.0.0.1:8000/auth/token/login/
+
+User logout: http://127.0.0.1:8000/auth/token/logout/
