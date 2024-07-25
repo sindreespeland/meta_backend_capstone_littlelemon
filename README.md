@@ -1,4 +1,6 @@
 # meta_backend_capstone_littlelemon
+This is the littlelemon api created from the meta backend developer capstone project.
+
 In this project I have used a venv. Use the following commands below to create and activate a viritual environment followed by installing the requirements file
 
 ## Step 1 - create venv
