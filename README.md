@@ -1,6 +1,7 @@
 # meta_backend_capstone_littlelemon
+In this project I have used a venv. Use the following commands below to create and activate a viritual environment followed by installing the requirements file
 
-### Commands
+## Step 1 - create venv
 Create venv - windows and mac:
 ```bash
 python -m venv venv
@@ -16,15 +17,14 @@ Activate venv - mac:
 source venv/bin/activate
 ```
 
-Creating requirements file
-```bash
-pip freeze > requirements.txt
-```
-
+## Step 2 - install requirements
 Installing requirements
 ```bash
 pip install -r requirements.txt
 ```
+
+After setting your mysql credentials you should be able to migrate, createsuperuser and runserver.
+
 ## Endpoints
 ### Booking endpoints
 Bookings: http://127.0.0.1:8000/restaurant/booking/tables

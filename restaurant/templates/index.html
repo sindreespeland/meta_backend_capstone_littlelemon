@@ -1,11 +1,13 @@
 <html>
-    <head>
-            <title>Capstone Project</title>
-    </head>
-    <body>
-            <h1 style="text-align:center;">Welcome ToLittleLemon Restaurant</h1>
+        <head>
+                <title>Capstone Project</title>
+                {% load static %}
+                <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        </head>
+        <body>
+                <h1 style="text-align:center;">Welcome To LittleLemon Restaurant</h1>
 
-            {% load static %}
-            <img src="{% static 'resturant/Bruschetta.jpg' %}">   
-    </body>
+                {% load static %}
+                <img src="{% static 'resturant/restaurant_inside.jpg' %}">   
+        </body>
 </html>
